@@ -29,7 +29,7 @@ tokens_t::~tokens_t(){
 }
 const char* tokens_t::operator[](size_t i){
     if(i<ntoks) return tokens[i];
-    else return NULL;
+    else return nullptr;
 }
 size_t tokens_t::num() const{
     return ntoks;
