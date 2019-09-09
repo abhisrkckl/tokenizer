@@ -15,8 +15,13 @@ private:
 public:
     tokens_t(const char *str, const char *delim);
     ~tokens_t();
+
     const char* operator[](size_t i);
     size_t num() const;
+
+    operator char**(){
+        return tokens;
+    }
 };
 
 #endif

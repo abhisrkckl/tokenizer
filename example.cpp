@@ -14,6 +14,12 @@ int main(){
     for(int i=0; i<ntoks; i++){
         std::cout<<tokens[i]<<'\n';
     }
+    
+    //Unsafe access
+    char **tokens_ptr = tokens;
+    for(int i=0; i<ntoks; i++){
+        std::cout<<tokens_ptr[i]<<'\n';
+    }
 
     return 0;
 }
