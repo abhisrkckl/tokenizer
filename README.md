@@ -1,5 +1,6 @@
 # tokenizer
-## Author: Abhimanyu Susobhanan
+
+Author: Abhimanyu Susobhanan
 
 A simple C++ RAII wrapper for the strtok function.
 
