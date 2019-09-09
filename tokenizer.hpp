@@ -1,6 +1,8 @@
 #ifndef _tokenizer_hpp_
 #define _tokenizer_hpp_
 
+#include <cstddef>
+
 struct tokens_t{
 private:
     char *storage;
